@@ -994,7 +994,6 @@
             1. Let _str_ be *"-0"*.
           1. Else,
             1. Let _str_ be ! Number::toString(_x_).
-        1. If the grammar cannot interpret _str_ as an expansion of |StringNumericLiteral|, return *NaN*.
         1. Let _text_ be ! StringToCodePoints(_str_).
         1. Let _literal_ be ParseText(_text_, |StringNumericLiteral|).
         1. If _literal_ is a List of errors, let _mv_ be *NaN*.
